@@ -1,0 +1,35 @@
+1.Write a program which takes two values x and y. Prints x for y number of times.
+#include <iostream>
+using namespace std;
+int main() {
+ int x,y;
+ cin>>x>>y;
+ for ( int i=1;i<=y;i++){
+     cout<<x<<endl;
+ }}
+
+2.Write a program to take x and print multiples of x till 1000.
+
+#include <iostream>
+using namespace std;
+int main() {
+ int x;
+ cin>>x;
+ for(int i=x;i<=1000;i=i+100)
+    cout<<i<<endl;
+ 
+}
+
+3.Write a program to get firstName and lastName and n as input and print fullName that is firstName+lastName for n times.
+
+#include <iostream>
+using namespace std;
+int main() {
+ string firstname,lastname;
+ int n;
+ cin>>firstname>>lastname>>n;
+  string fullname=firstname+lastname;
+  for(int i=0;i<n;i++){
+      cout<<fullname <<endl;
+  }
+ }
